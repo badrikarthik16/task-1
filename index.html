@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>bundleAndSavePage</title>
+</head>
+
+<body>
+    <script src="./task.js"></script>
+    <div id="bundleAndSavePage" class="center">
+        <header>
+            <h1 class="main-heading">Bundle & Save</h1>
+        </header>
+        <!-- single option select details  -->
+        <div id="priceSelector1" class="price-selector">
+            <div class="content">
+                <div class="details">
+                    <div class="radio" onclick="onePairFunction()">
+                        <input type="radio" id="onePairRadioButton">
+                    </div>
+                    <div>
+                        <h4 style="margin-bottom:1px">1 Pair</h4>
+                        <h4 style="margin-top:3px">DKK 195.00</h4>
+                    </div>
+                </div>
+                <div class="offer">
+                    <h4>50% OFFER</h4>
+                </div>
+            </div>
+            <div id="OnePairSizeAndColor" class="sizeandcolor">
+                <div style="margin-top: 2%;">
+                    <label><b>#1</b></label>
+                </div>
+                <div>
+                    <label class="sub-heading"><b>Size</b></label>
+                    <div style="margin-left: 20px;">
+                        <select style="width: 100%">
+                            <option value="none" selected disabled hidden>Select the size</option>
+                            <option value="small">S</option>
+                            <option value="medium">M</option>
+                            <option value="large">L</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <label class="sub-heading"><b>Color</b></label>
+                    <div style="margin-left: 20px;">
+                        <select style="width: 100%;">
+                            <option value="none" selected disabled hidden>Select the Color</option>
+                            <option value="Red">Red</option>
+                            <option value="Green">Green</option>
+                            <option value="Blue">Blue</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <!-- two options selection details  -->
+        <div id="priceSelector2" class="price-selector">
+            <div class="content">
+                <div class="details">
+                    <div class="radio" onclick="twoPairFunction()">
+                        <input type="radio" id="twoPairRadioButton">
+                    </div>
+                    <div>
+                        <h4 style="margin-bottom:1px">2 Pair</h4>
+                        <h4 style="margin-top:3px">DKK 345.00</h4>
+                    </div>
+                </div>
+                <div id="twoPairOffer" class="offer">
+                    <h4>40% OFFER</h4>
+                </div>
+            </div>
+            <div id="twoPairSizeAndColor1" class="sizeandcolor">
+                <div style="margin-top: 2%;">
+                    <label><b>#1</b></label>
+                </div>
+                <div>
+                    <label class="sub-heading"><b>Size</b></label>
+                    <div style="margin-left: 20px;">
+                        <select style="width: 100%;">
+                            <option value="none" selected disabled hidden>Select the Size</option>
+                            <option value="small">S</option>
+                            <option value="medium">M</option>
+                            <option value="large">L</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <label class="sub-heading"><b>Color</b></label>
+                    <div style="margin-left: 20px;">
+                        <select style="width: 100%;">
+                            <option value="none" selected disabled hidden>Select the Color</option>
+                            <option value="">select</option>
+                            <option value="White">White</option>
+                            <option value="Black">Black</option>
+                            <option value="Yellow">Yellow</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div id="twoPairSizeAndColor2" class="sizeandcolor">
+                <div>
+                    <label><b>#2</b></label>
+                </div>
+                <div>
+                    <div style="margin-left: 20px;">
+                        <select style="width: 100%;">
+                            <option value="none" selected disabled hidden>Select the Size</option>
+                            <option value="small">S</option>
+                            <option value="medium">M</option>
+                            <option value="large">L</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <div style="margin-left: 20px;">
+                        <select style="width: 100%;">
+                            <option value="none" selected disabled hidden>Select the Color</option>
+                            <option value="Red">Red</option>
+                            <option value="Green">Green</option>
+                            <option value="Blue">Blue</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <!-- Three options selection details  -->
+        <div id="priceSelector3" class="price-selector">
+            <div id="threePairSelection" name="threePairSelection" class="content">
+                <div class="details">
+                    <div class="radio" onclick="threePairFunction()">
+                        <input type="radio" id="threePairRadioButton">
+                    </div>
+                    <div >
+                        <h4 style="margin-bottom:1px">3 Pair</h4>
+                        <h4 style="margin-top:3px">DKK 520.00</h4>
+                    </div>
+                </div>
+                <div id="threePairOffer" class="offer">
+                    <h4>60% OFFER</h4>
+                </div>
+            </div>
+            <div id="threePairSizeAndColor1" class="sizeandcolor">
+                <div style="margin-top: 2%;">
+                    <label><b>#1</b></label>
+                </div>
+                <div>
+                    <label class="sub-heading"><b>Size</b></label>
+                    <div style="margin-left: 20px;">
+                        <select style="width: 100%;"> 
+                            <option value="none" selected disabled hidden>Select the Size</option>
+                            <option value="small">S</option>
+                            <option value="medium">M</option>
+                            <option value="large">L</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <label class="sub-heading"><b>Color</b></label>
+                    <div style="margin-left: 20px;">
+                        <select style="width: 100%;">
+                            <option value="none" selected disabled hidden>Select the Color</option>
+                            <option value="White">White</option>
+                            <option value="Black">Black</option>
+                            <option value="Yellow">Yellow</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div id="threePairSizeAndColor2" class="sizeandcolor">
+                <div>
+                    <label><b>#2</b></label>
+                </div>
+                <div>
+                    <div style="margin-left: 20px;">
+                        <select style="width: 100%;">
+                            <option value="none" selected disabled hidden>Select the Size</option>
+                            <option value="small">S</option>
+                            <option value="medium">M</option>
+                            <option value="large">L</option>
+                        </select>
+                    </div>
+                </div>
+                <div >
+                    <div style="margin-left: 20px;">
+                        <select style="width: 100%;">
+                            <option value="none" selected disabled hidden>Select the Color</option>
+                            <option value="Green">Green</option>
+                            <option value="Black">Black</option>
+                            <option value="Yellow">Yellow</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div id="threePairSizeAndColor3" class="sizeandcolor">
+                <div>
+                    <label><b>#3</b></label>
+                </div>
+                    <div style="margin-left: 20px;">
+                        <select style="width: 100%;">
+                            <option value="none" selected disabled hidden>Select the Size</option>
+                            <option value="small">S</option>
+                            <option value="medium">M</option>
+                            <option value="large">L</option>
+                        </select>
+                    </div>
+                    <div style="margin-left: 20px;">
+                        <select style="width: 100%;">
+                            <option value="none" selected disabled hidden>Select the Color</option>
+                            <option value="Green">Green</option>
+                            <option value="White">White</option>
+                            <option value="Black">Black</option>
+                        </select>
+                    </div>
+            </div>
+        </div>
+
+         <!-- shipping details with price  -->
+        <div class="shipping-details">
+            <h3 class="green-text">Free 2 Day Shipping</h3>
+            <h3 class="total-price">Total : <span> DKK 360.00</span></h3>
+        </div>
+
+         <!-- adding to cart details  -->
+        <div id="bundleAndSavePageFooter">
+            <button id="addToCartButton" class="cartButton">+ Add to Cart</button>
+        </div>
+    </div>
+</body>
+
+</html>
